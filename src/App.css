@@ -17,12 +17,11 @@
 }
 
 :root {
-  --primary-light: #F4E668;
-  --gray-500: #ADB5BD;
-  --primary-color: #030D0F;
+  --primary-light: #f4e668;
+  --gray-500: #adb5bd;
+  --primary-color: #030d0f;
   --heading-title-color: #152536;
-  --white-grey: #DEE2E6;
-
+  --white-grey: #dee2e6;
 }
 
 .logo {
@@ -77,13 +76,13 @@
 }
 
 .main__table {
-  width: 100%
+  width: 100%;
 }
 
 .main__th {
   font-size: 16px;
   font-weight: 400;
-  line-height: 28px; 
+  line-height: 28px;
   text-align: center;
 }
 
@@ -124,7 +123,7 @@
 }
 
 .aside__last-button {
-  background-color: var(--primary-light)
+  background-color: var(--primary-light);
 }
 
 .main__th {
@@ -135,6 +134,10 @@
   line-height: normal;
   border-spacing: 0px;
   border-collapse: collapse;
+}
+
+li {
+  color: black;
 }
 
 .main__th-1 {
@@ -180,7 +183,7 @@
 .modal {
   height: 100vh;
   width: 100vw;
-  background-color: rgba(0,0,0,0.4);
+  background-color: rgba(0, 0, 0, 0.4);
   position: fixed;
   top: 0;
   left: 0;
