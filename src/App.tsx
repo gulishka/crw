@@ -1,9 +1,9 @@
 import "./App.css";
-import Modal from "./Components/UI/Modal/modal.tsx";
 import Table from "./Components/UI/Table/Table.tsx";
 import Sidebar from "./Components/sidebar.tsx";
 import { useState } from "react";
 import { values } from "./data/mock-data-table.ts";
+import Modal from "./Components/UI/Modal/Modal.tsx";
 
 function App() {
   const [modalActive, setModalActive] = useState(false);
